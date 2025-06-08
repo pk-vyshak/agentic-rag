@@ -1,0 +1,43 @@
+# Python virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+
+# Environment variables
+.env
+
+# Streamlit specific
+.streamlit/config.toml
+
+# Uploaded PDFs
+uploaded/
+qdrant_storage/
+
+# Jupyter notebooks checkpoints (if used)
+.ipynb_checkpoints/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# VS Code settings
+.vscode/
+
+# Temporary files
+*.bak
+*.swp
+*.tmp
+
+# MyPy / Pyright / Pytest cache
+.mypy_cache/
+.pyright/
+.pytest_cache/
